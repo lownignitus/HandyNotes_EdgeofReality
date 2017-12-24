@@ -122,7 +122,7 @@ function HandyNotes_EdgeOfReality:OnInitialize()
 		profile = {
 			icon_scale = 1.0,
 			icon_alpha = 1.0,
-			showonminimap = true,
+			showonminimap = false,
 		},
 	}
 
