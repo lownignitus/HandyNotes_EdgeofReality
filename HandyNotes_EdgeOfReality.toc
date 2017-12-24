@@ -1,0 +1,10 @@
+## Interface: 70000
+## Title: HandyNotes_EdgeOfReality
+## Version: 1.0
+## Notes: HandyNotes plugin for displaying Edge of Reality portal locations on the world map
+## Author: LownIgnitus aka Mihkael @ Alexstrasza-US
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## SavedVariables: HandyNotes_EdgeOfRealityDB
+
+HandyNotes_EdgeOfReality.lua
