@@ -1,7 +1,7 @@
 HandyNotes_EdgeOfReality = LibStub("AceAddon-3.0"):NewAddon("HandyNotes_EdgeOfReality", "AceBucket-3.0", "AceConsole-3.0", "AceEvent-3.0", "AceTimer-3.0")
 
 local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes", true)
-if not HandyNotes then return end
+if not HandyNotes then print"Edge of Reality requires HandyNotes to load"; return end
 
 local db
 local iconDefault = "Interface\\ICONS\\Ability_Mount_FireRavenGodMountPurple"
@@ -15,13 +15,13 @@ nodes["FrostfireRidge"] = {
     [52401818] = { "Edge of Reality"},
     [53801746] = { "Edge of Reality"},
     [47702757] = { "Edge of Reality"},
-    [39002600] = { "Edge of Reality"},
+--    [39002600] = { "Edge of Reality"},
 }
 nodes["NagrandDraenor"] = {
     [40504760] = { "Edge of Reality"},
     [44013067] = { "Edge of Reality"},
     [57302670] = { "Edge of Reality"},
-    [59501020] = { "Edge of Reality"},
+--    [59501020] = { "Edge of Reality"},
 }
 nodes["SpiresOfArak"] = {
     [36431830] = { "Edge of Reality"},
@@ -43,7 +43,7 @@ nodes["Gorgrond"] = {
     [54004580] = { "Edge of Reality"},
     [56004070] = { "Edge of Reality"},
     [43303420] = { "Edge of Reality"},
-    [46902120] = { "Edge of Reality"},
+--    [46902120] = { "Edge of Reality"},
 }
 nodes["Talador"] = {
     [39885561] = { "Edge of Reality"},
@@ -80,7 +80,7 @@ end
 
 local options = {
 	type = "group",
-	name = "HandyNotes_EdgeOfReality",
+	name = "Edge Of Reality",
 	desc = "Locations of the Edge of Reality portals.",
 	get = function(info) return db[info.arg] end,
 	set = function(info, v) db[info.arg] = v; HandyNotes_EdgeOfReality:Refresh() end,
