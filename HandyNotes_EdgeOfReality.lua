@@ -132,7 +132,6 @@ end
 
 function HandyNotes_EdgeOfReality:WorldEnter()
 	self:UnregisterEvent("PLAYER_ENTERING_WORLD")
-	self:ScheduleTimer("RegisterWithHandyNotes", 10)
 end
 
 function HandyNotes_EdgeOfReality:RegisterWithHandyNotes()
