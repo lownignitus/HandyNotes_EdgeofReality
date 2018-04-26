@@ -7,10 +7,4 @@
 ## RequiredDeps: HandyNotes
 ## SavedVariables: HandyNotes_EdgeOfRealityDB
 
-# Library files
-#@no-lib-strip@
-Libs\AceBucket-3.0\AceBucket-3.0.xml
-Libs\AceTimer-3.0\AceTimer-3.0.xml
-#@end-no-lib-strip@
-
 HandyNotes_EdgeOfReality.lua

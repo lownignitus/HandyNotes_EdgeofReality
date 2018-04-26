@@ -1,4 +1,4 @@
-HandyNotes_EdgeOfReality = LibStub("AceAddon-3.0"):NewAddon("HandyNotes_EdgeOfReality", "AceBucket-3.0", "AceConsole-3.0", "AceEvent-3.0", "AceTimer-3.0")
+HandyNotes_EdgeOfReality = LibStub("AceAddon-3.0"):NewAddon("HandyNotes_EdgeOfReality", "AceConsole-3.0", "AceEvent-3.0")
 
 local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes", true)
 if not HandyNotes then print"Edge of Reality requires HandyNotes to load"; return end
